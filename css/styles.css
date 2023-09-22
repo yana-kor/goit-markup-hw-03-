@@ -1,0 +1,228 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**==================== HEADER ====================*/
+
+.header-logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo-text {
+    color: #2E2F42;
+}
+
+.header-list-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-list-link:hover,
+.header-list-link:focus {
+    color: #404bbf;
+}
+.header-contact {
+    font-style: normal;
+}
+
+.header-contact-link {
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+.header-contact-link:hover {
+    color: #404bbf;
+}
+
+.header-contact-link:active {
+    color: #404BBF;
+}
+
+.header-contact-link:focus {
+    color: #404BBF;
+}
+
+/**================================================*/
+
+/**==================== MAIN ====================*/
+
+.main {
+    background-color: #2e2f42;
+}
+
+.main-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    background-color: #2E2F42;
+}
+
+.main-heading-btn {
+    color: #FFF;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+
+.main-heading-btn:hover {
+    color: #2E2F42;
+    background: #404BBF;
+}
+
+.main-heading-btn:focus {
+    color: #2E2F42;
+    background: #404BBF;
+}
+
+.benefits {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.benefits-subtittle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.benefits-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.team-item {
+    background-color: #FFFFFF;
+}
+.team-tittle {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-sublittle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.section-heading {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.portfolio-subtittle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-section {
+    background-color: #F4F4FD;
+}
+
+.portfolio-list {
+    background-color: #FFFFFF;
+}
+
+/**================================================*/
+
+/**==================== FOOTER ====================*/
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+    color: #f4f4fd;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: #2E2F42;
+}
+
+.footer-logo-iris {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: #2E2F42;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background: #2E2F42;
+}
+
+/**================================================*/
