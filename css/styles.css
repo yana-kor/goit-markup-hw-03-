@@ -13,7 +13,34 @@ a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1470px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 /**==================== HEADER ====================*/
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    }
 
 .header-logo {
     color: #4D5AE5;
@@ -55,7 +82,6 @@ a {
 }
 
 
-
 .header-contact-link:hover {
     color: #404bbf;
 }
@@ -72,8 +98,11 @@ a {
 
 /**==================== MAIN ====================*/
 
-.main {
-    background-color: #2e2f42;
+
+.main-container {
+background-color: #2e2f42;
+   padding: 188px 472px;
+  
 }
 
 .main-heading {
@@ -84,6 +113,9 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     background-color: #2E2F42;
+    margin-bottom: 48px;
+    max-width: 496px;
+
 }
 
 .main-heading-btn {
@@ -95,6 +127,7 @@ a {
     letter-spacing: 0.04em;
     background: #4D5AE5;
     cursor: pointer;
+
 }
 
 .main-heading-btn:hover {
@@ -107,12 +140,18 @@ a {
     background: #404BBF;
 }
 
+/**================================================*/
+
+/**==================== BENEFITS ====================*/
+
 .benefits {
     background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .benefits-subtittle {
@@ -121,10 +160,7 @@ a {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
-
-.team {
-    background-color: #F4F4FD;
+    margin-bottom: 8px;
 }
 
 .benefits-text {
@@ -133,6 +169,16 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/**================================================*/
+
+/**==================== TEAM ====================*/
+
+.team {
+background-color: #F4F4FD;
+ padding-top: 120px; 
+}
+
 
 
 .team-item {
@@ -146,6 +192,10 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.team-img {
+    margin-bottom: 32px;
 }
 
 .team-sublittle {
@@ -154,13 +204,27 @@ a {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
+
 
 .team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
 }
+
+/**================================================*/
+
+/**==================== PORTFOLIO ====================*/
+
+
+.portfolio-section {
+    padding-top: 120px;
+    background-color:#FFFFFF;
+}
+
 .section-heading {
     color: #2E2F42;
     text-align: center;
@@ -169,6 +233,11 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.portfolio-img {
+    margin-bottom: 32px;
 }
 
 .portfolio-subtittle {
@@ -177,14 +246,18 @@ a {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
-
-.portfolio-section {
-    background-color: #F4F4FD;
+    margin-bottom: 8px;
 }
 
 .portfolio-list {
     background-color: #FFFFFF;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
 }
 
 /**================================================*/
@@ -193,6 +266,8 @@ a {
 
 .footer {
     background-color: #2e2f42;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -204,6 +279,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     background-color: #2E2F42;
+    margin-bottom: 17.5px;
 }
 
 .footer-logo-iris {
@@ -223,6 +299,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     background: #2E2F42;
+    margin-bottom: 100px;
+    mawidth: 264px;
 }
 
 /**================================================*/
