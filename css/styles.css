@@ -42,6 +42,17 @@ img {
     padding-bottom: 24px;
     }
 
+.header-navigation {
+display: flex;
+flex-grow: 1;
+justify-content: space-between;
+        }
+
+.header-container{
+display: flex;
+gap: 332px;
+}
+
 .header-logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -50,12 +61,16 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 }
 
 .header-logo-text {
     color: #2E2F42;
 }
-
+.header-list { 
+    display: flex;
+        gap: 40px;
+}
 .header-list-link {
     color: #2E2F42;
     font-size: 16px;
@@ -63,24 +78,32 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
 }
 
 .header-list-link:hover,
 .header-list-link:focus {
     color: #404bbf;
 }
+
 .header-contact {
     font-style: normal;
+  
 }
-
+.header-contact-list {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
 .header-contact-link {
     color: #434455;
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
-
 
 .header-contact-link:hover {
     color: #404bbf;
@@ -102,6 +125,7 @@ img {
 .main-container {
 background-color: #2e2f42;
    padding: 188px 472px;
+
   
 }
 
@@ -115,6 +139,8 @@ background-color: #2e2f42;
     background-color: #2E2F42;
     margin-bottom: 48px;
     max-width: 496px;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -125,8 +151,17 @@ background-color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    display: inline-flex;
+    padding: 16px 32px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   
 
 }
 
@@ -144,6 +179,19 @@ background-color: #2e2f42;
 
 /**==================== BENEFITS ====================*/
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .benefits {
     background-color: #FFFFFF;
     font-size: 16px;
@@ -153,6 +201,15 @@ background-color: #2e2f42;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.benefits-list {
+display: flex;
+gap: 24px;
+}
+
+ .benefits-item {
+    width: calc((100% - 24px * 3) / 4);
+ }
 
 .benefits-subtittle {
     color: #2E2F42;
@@ -179,11 +236,17 @@ background-color: #F4F4FD;
  padding-top: 120px; 
 }
 
-
+.team-list{
+    display: flex;
+    gap: 24px;
+}
 
 .team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 24px * 3) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
+
 .team-tittle {
     color: #2E2F42;
     text-align: center;
@@ -194,6 +257,7 @@ background-color: #F4F4FD;
     text-transform: capitalize;
     margin-bottom: 72px;
 }
+
 .team-img {
     margin-bottom: 32px;
 }
@@ -205,14 +269,15 @@ background-color: #F4F4FD;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: center;
 }
-
 
 .team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 32px;
+    text-align: center;
 }
 
 /**================================================*/
@@ -238,6 +303,8 @@ background-color: #F4F4FD;
 
 .portfolio-img {
     margin-bottom: 32px;
+    width: 360px;
+    height: 300px;
 }
 
 .portfolio-subtittle {
@@ -251,6 +318,15 @@ background-color: #F4F4FD;
 
 .portfolio-list {
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.portfolio-item {
+    width: calc((100% - 24px * 2) / 3);
+    
 }
 
 .portfolio-text {
@@ -300,7 +376,8 @@ background-color: #F4F4FD;
     letter-spacing: 0.02em;
     background: #2E2F42;
     margin-bottom: 100px;
-    mawidth: 264px;
+    max-width: 264px;
+
 }
 
 /**================================================*/
