@@ -165,11 +165,10 @@ width: 1158px;
     border: none;
     padding: 16px 32px;
     gap: 10px;
-    display: flex;
     min-width: 169px;
-    margin: 0 auto;
-   
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-heading-btn:hover {
@@ -185,18 +184,6 @@ width: 1158px;
 
 /**==================== BENEFITS ====================*/
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .benefits {
     background-color: #FFFFFF;
@@ -212,21 +199,19 @@ width: 1158px;
 .benefits-list {
 display: flex;
 gap: 24px;
-
 }
 
  .benefits-item {
-    width: calc((100% - 72px) / 4);
  }
 
 .benefits-subtittle {
+    width: calc((100% - 72px) / 4);
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-
 }
 
 .benefits-text {
@@ -234,10 +219,20 @@ gap: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
-
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 /**================================================*/
 
