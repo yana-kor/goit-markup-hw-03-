@@ -202,10 +202,10 @@ gap: 24px;
 }
 
  .benefits-item {
+    width: calc((100% - 72px) / 4);
  }
 
 .benefits-subtittle {
-    width: calc((100% - 72px) / 4);
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
