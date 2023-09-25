@@ -131,7 +131,9 @@ width: 1158px;
     background-color: #2e2f42;
     padding: 188px 0;
 }
-
+.main-container {
+    background-color: #2e2f42;
+}
 
 .main-heading {
     color: #FFF;
@@ -247,6 +249,7 @@ padding: 120px 0;
 
 .team-container { 
     padding: 32px 0;
+    width: calc((100% - 24px * 3) / 4);
 }
 .team-list{
     display: flex;
@@ -254,8 +257,8 @@ padding: 120px 0;
 }
 
 .team-item {
-    background-color: #FFFFFF;
     width: calc((100% - 24px * 3) / 4);
+    background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
 
