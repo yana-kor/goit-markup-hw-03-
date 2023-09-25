@@ -235,6 +235,7 @@ gap: 24px;
     letter-spacing: 0.02em;
     color: #434455;
 
+
 }
 
 
@@ -249,8 +250,8 @@ padding: 120px 0;
 
 .team-container { 
     padding: 32px 0;
-    width: calc((100% - 24px * 3) / 4);
 }
+
 .team-list{
     display: flex;
     gap: 24px;
@@ -261,7 +262,6 @@ padding: 120px 0;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
-
 .team-tittle {
     color: #2E2F42;
     text-align: center;
@@ -291,6 +291,18 @@ padding: 120px 0;
     letter-spacing: 0.02em;
     text-align: center;
 }
+
+.team-tittle {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
 
 /**================================================*/
 
