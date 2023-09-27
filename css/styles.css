@@ -84,7 +84,6 @@ width: 1158px;
     letter-spacing: 0.02em;
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-list-link:hover,
@@ -108,7 +107,7 @@ width: 1158px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
-    padding: 24px 0;
+   
 }
 
 .header-contact-link:hover {
@@ -379,7 +378,7 @@ padding: 120px 0;
     text-transform: uppercase;
     background-color: #2E2F42;
     display: inline-block;
-    margin-bottom: 16px;
+   
 }
 
 .footer-logo-iris {
@@ -401,7 +400,6 @@ padding: 120px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     background: #2E2F42;
-    margin-bottom: 100px;
     max-width: 264px;
 
 }
