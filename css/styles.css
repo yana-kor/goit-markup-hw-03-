@@ -39,8 +39,6 @@ img {
 /**==================== HEADER ====================*/
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
     }
 
@@ -73,7 +71,7 @@ width: 1158px;
 }
 .header-list { 
     display: flex;
-        gap: 40px;
+    gap: 40px;
 }
 .header-list-link {
     color: #2E2F42;
@@ -84,6 +82,7 @@ width: 1158px;
     letter-spacing: 0.02em;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-list-link:hover,
@@ -378,7 +377,6 @@ padding: 120px 0;
     text-transform: uppercase;
     background-color: #2E2F42;
     display: inline-block;
-   
 }
 
 .footer-logo-iris {
@@ -401,7 +399,6 @@ padding: 120px 0;
     letter-spacing: 0.02em;
     background: #2E2F42;
     max-width: 264px;
-
 }
 
 /**================================================*/
